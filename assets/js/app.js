@@ -15,4 +15,8 @@ $(document).ready(function(){
     $('img').hide();
     $('.mexico').fadeIn();
   });
+  $('#miboton').click(function() {
+    // Recargo la página
+    location.reload();
+});
 });
