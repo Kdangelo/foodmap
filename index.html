@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>FoodMap</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+	<!-- Preloader -->
+	<header class="container-fluid">
+		<div class="row">
+			<div class="class-xs-12 preloader">
+				<h1 class="preloader">Foodmap</h1>
+			</div>
+		</div>
+	</header>
+	<!-- main view -->
+	<section class="container first">
+		<div class="row">
+			<div class="col-xs-12 titleFirst">
+				<h1 class="text-center">Foodmap</h1>
+				<hr>
+			</div>
+		</div>
+	</section>
+	<!-- maps utilities sections -->
+	<section class="container second">		
+		
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="map-responsive">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13319.351416379748!2d-70.64980639999999!3d-33.42747145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1513191776706" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>	
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-xs-12 titleFirst">
+				<h2 class="text-center">Comida cerca de ti</h2>
+			</div>
+		</div>
+
+	</section> <!-- ends maps utilities sections -->	
+	
+	<!-- search section -->
+	<section class="container third">
+		
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="dropdown styleDrop">
+					<button class="btn btn-default dropdown-toggle btn-style" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						Filtrar restaurantes
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						<li class="op-china"><a href="#">Restaurant comida china</a></li>
+						<li class="op-italy"><a href="#">Restaurant comida italiana</a></li>
+						<li class="op-mexico"><a href="#">Restaurant comida mexicana</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- main food -->
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="col-xs-4">
+					<div class="feature-gallery" data-toggle="modal" href="#myModal">
+						<img class="thumb peru" src="assets/images/peru1.jpg">
+							<div class="fg-overlay">
+								<p>Causa limeña</p>
+							</div>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="feature-gallery" data-toggle="modal" href="#myModal">
+						<img class="thumb peru" src="assets/images/peru2.jpg">
+							<div class="fg-overlay">
+								<p>Ají de gallina</p>
+							</div>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="feature-gallery" data-toggle="modal" href="#myModal">
+						<img class="thumb peru" src="assets/images/peru3.jpg">
+							<div class="fg-overlay">
+								<p>Ceviche</p>
+							</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12">
+					<div class="col-xs-6">
+						<div class="feature-gallery" data-toggle="modal" href="#myModal">
+							<img class="thumb peru" src="assets/images/peru4.jpg">
+								<div class="fg-overlay">
+									<p>Lomo saltado</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<div class="feature-gallery" data-toggle="modal" href="#myModal">
+							<img class="thumb peru" src="assets/images/peru5.jpg">
+								<div class="fg-overlay">
+									<p>Ají relleno</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- china food -->
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="col-xs-4">
+					<div class="feature-gallery" data-toggle="modal" href="#myModal">
+						<img class="thumb china" src="assets/images/china1.jpg">
+							<div class="fg-overlay">
+								<p>Lucky-china buffet</p>
+							</div>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="feature-gallery" data-toggle="modal" href="#myModal">
+						<img class="thumb china" src="assets/images/china2.jpg">
+							<div class="fg-overlay">
+								<p>Grillos bbq</p>
+							</div>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="feature-gallery" data-toggle="modal" href="#myModal">
+						<img class="thumb china" src="assets/images/china3.jpg">
+							<div class="fg-overlay">
+								<p>Yang -china food</p>
+							</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12">
+					<div class="col-xs-6">
+						<div class="feature-gallery" data-toggle="modal" href="#myModal">
+							<img class="thumb china" src="assets/images/china4.jpg">
+								<div class="fg-overlay">
+									<p>Soap fish</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<div class="feature-gallery" data-toggle="modal" href="#myModal">
+							<img class="thumb china" src="assets/images/china5.jpg">
+								<div class="fg-overlay">
+									<p>Arroz chaufa</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- italian food -->
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="col-xs-4">
+					<div class="feature-gallery" data-toggle="modal" href="#myModal">
+						<img class="thumb italy" src="assets/images/italiana1.jpg">
+							<div class="fg-overlay">
+								<p>Lasagna de carne</p>
+							</div>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="feature-gallery" data-toggle="modal" href="#myModal">
+						<img class="thumb italy" src="assets/images/italiana2.jpg">
+							<div class="fg-overlay">
+								<p>Fetuccini al pesto</p>
+							</div>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="feature-gallery" data-toggle="modal" href="#myModal">
+						<img class="thumb italy" src="assets/images/italiana3.jpg">
+							<div class="fg-overlay">
+								<p>Spaghetti alfredo</p>
+							</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12">
+					<div class="col-xs-6">
+						<div class="feature-gallery" data-toggle="modal" href="#myModal">
+							<img class="thumb italy" src="assets/images/italiana4.jpg">
+								<div class="fg-overlay">
+									<p>Pizza italiana</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<div class="feature-gallery" data-toggle="modal" href="#myModal">
+							<img class="thumb italy" src="assets/images/italiana5.jpg">
+								<div class="fg-overlay">
+									<p>Canelones</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- maxican food -->
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="col-xs-4">
+					<div class="feature-gallery" data-toggle="modal" href="#myModal">
+						<img class="thumb mexico" src="assets/images/mexicana1.jpg">
+							<div class="fg-overlay">
+								<p>Chilaquiles hot</p>
+							</div>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="feature-gallery" data-toggle="modal" href="#myModal">
+						<img class="thumb mexico" src="assets/images/mexicana2.jpg">
+							<div class="fg-overlay">
+								<p>Quesadillas</p>
+							</div>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="feature-gallery" data-toggle="modal" href="#myModal">
+						<img class="thumb mexico" src="assets/images/mexicana3.jpg">
+							<div class="fg-overlay">
+								<p>Tacos de pollo</p>
+							</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12">
+					<div class="col-xs-6">
+						<div class="feature-gallery" data-toggle="modal" href="#myModal">
+							<img class="thumb mexico" src="assets/images/mexicana4.jpg">
+								<div class="fg-overlay">
+									<p>Tostadas mexicanas</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<div class="feature-gallery" data-toggle="modal" href="#myModal">
+							<img class="thumb mexico" src="assets/images/mexicana5.jpg">
+								<div class="fg-overlay">
+									<p>Botones mexicanos</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section> <!-- ends search section -->	
+	
+	<!-- modal images -->
+	<div class="container">
+		<div class="row">
+			<div id="myModal" class="modal fade in">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+							<h4 class="modal-title">Tu plato elegido</h4>
+						</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="map-responsive">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13319.351416379748!2d-70.64980639999999!3d-33.42747145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1513191776706" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>	
+								</div>
+							</div>
+							<h4>Tu restaurante en el mapa</h4>
+							<p>la direccion de tu restaurante<br>
+								telefono<br>
+								correo	
+							</p>
+						</div>
+						<div class="modal-footer">
+							<div class="btn-group">
+								<button class="btn btn-primary"><span class="glyphicon glyphicon-check"></span> Pedir ahora</button>
+							</div>
+						</div>
+	 
+					</div><!-- /.modal-content -->
+				</div><!-- /.modal-dalog -->
+			</div><!-- /.modal -->
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
+
